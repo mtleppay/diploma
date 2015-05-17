@@ -1,0 +1,224 @@
+body{
+
+	padding-bottom: 100px;
+}
+
+
+
+.glavnyi{
+
+	/*background: #ccc;*/
+	font-family: 'Times New Roman';	
+	height: 1100px;
+    margin-bottom: 100px;
+}
+
+
+.table2{
+    font-size: 22px;
+}
+.table1{
+
+	font-size: 22px;
+    /*padding-bottom: 100px;*/
+	
+	/*background: #F95F5F;*/
+	/*margin-left: 50px;*/
+}
+
+.appendix {
+	
+
+	padding-top: 50px;
+	padding-left: 850px;
+}
+
+.toTheRules{
+	padding-left: 607px;
+}
+
+.midEnd{
+	padding-left: 470px;
+}
+
+.formLast{
+	padding-left: 972px;
+}
+
+.minutes{
+
+    padding-top: 40px;
+	text-align: center;
+	font-size: 26px;
+}
+
+.minutesSpan{
+
+	text-decoration: underline;
+}
+
+.meetingOf{
+	padding-top: 10px;
+	text-align: center;
+	font-size: 26px;
+}
+
+.date{
+	/*padding-left: 100px;*/
+	padding-top: 30px;
+}
+
+.agenda{
+	/*padding-left: 100px;*/
+	padding-top: 20px;
+}
+
+.studentInfo{
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+.researchMethods{
+
+	text-align: center;
+    border-bottom: 2px solid black;
+
+}
+
+.attendees{
+	padding-top: 10px;
+}
+
+.attendeesInfo{
+
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+
+.supervised{
+	padding-top: 20px;
+}
+
+.supervisedInfo{
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+
+.professorIITUsenior{
+	border-bottom: 2px solid black;
+	
+}
+
+.expertizedBy{
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+
+.recommendedToDef{
+	padding-left: 30px;
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+.grade{
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.question2{
+    border-bottom: 2px solid black;
+}
+.question3{
+    border-bottom: 2px solid black;
+}
+.question4{
+    border-bottom: 2px solid black;
+}
+.question5{
+    border-bottom: 2px solid black;
+}
+.overall{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.performedTo{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.option1{
+     text-align: center;
+     border-bottom: 2px solid black;
+ }
+.option2{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.alphabeticGradingScale{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.option3{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.option4{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.option5{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.signes{
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.consultedBy{
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+    border-right:0;
+    box-shadow:0 0 0;
+    border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.pencilIcon{
+    color: blue;
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+}
+
+
+.search-button{
+    border-color:#3498DB;
+    color:#3498DB;
+    padding: 8px 31px;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+.voprosNomerOdin{
+    border-bottom: 2px solid black;
+}
+
+.inline{
+    font-size: 14px;
+}
+
+.navbar-brand{
+    padding: 0px;
+}
