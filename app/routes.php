@@ -40,7 +40,7 @@ Route::group(['before' => 'students'],function(){
 
     Route::get('students', function()
     {
-        $users = User::orderBy('firstName')->get();
+        $users = User::orderBy('lastName')->get();
 
         return View::make('pages.students', ['users' => $users]);
     });
@@ -64,7 +64,7 @@ Route::group(['before' => 'students'],function(){
 
     Route::get('students/search' , function()
     {
-       $users = User::orderBy('firstName')->get();
+       $users = User::orderBy('lastName')->get();
 
         return View::make('pages.search', ['users' => $users]);
     });
@@ -73,6 +73,3 @@ Route::group(['before' => 'students'],function(){
 
 
 });
-
-
-
