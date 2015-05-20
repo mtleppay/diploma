@@ -1,8 +1,6 @@
 @extends('layouts.main')
 @section('content')
 
-
-
     <div class="container glavnyi">
 
         <table class = "table1" width= "1014">

@@ -222,20 +222,20 @@ public function addProfile($id)
 //            'temaKaz' => Input::get('temaKaz'),
 //            'temaEn' => Input::get('temaEn'),
 //            'rukovoditel' => Input::get('rukovoditel'),
-//            'vopros1' => DB::table('users')->where('id', $id)->pluck('vopros1'),
-//            'ocenka1' => DB::table('users')->where('id', $id)->pluck('ocenka1'),
-//            'vopros2' => DB::table('users')->where('id', $id)->pluck('vopros2'),
-//            'ocenka2' => DB::table('users')->where('id', $id)->pluck('ocenka2'),
+            'vopros1' => DB::table('users')->where('id', $id)->pluck('vopros1'),
+            'ocenka1' => DB::table('users')->where('id', $id)->pluck('ocenka1'),
+            'vopros2' => DB::table('users')->where('id', $id)->pluck('vopros2'),
+            'ocenka2' => DB::table('users')->where('id', $id)->pluck('ocenka2'),
             'vopros3' => Input::get('vopros3'),
             'ocenka3' => Input::get('ocenka3'),
-//            'vopros4' => DB::table('users')->where('id', $id)->pluck('vopros4'),
-//            'ocenka4' => DB::table('users')->where('id', $id)->pluck('ocenka4'),
-//            'vopros5' => DB::table('users')->where('id', $id)->pluck('vopros5'),
-//            'ocenka5' => DB::table('users')->where('id', $id)->pluck('ocenka5'),
-//            'vopros6' => DB::table('users')->where('id', $id)->pluck('vopros6'),
-//            'ocenka6' => DB::table('users')->where('id', $id)->pluck('ocenka6'),
-//            'vopros7' => DB::table('users')->where('id', $id)->pluck('vopros7'),
-//            'ocenka7' => DB::table('users')->where('id', $id)->pluck('ocenka7'),
+            'vopros4' => DB::table('users')->where('id', $id)->pluck('vopros4'),
+            'ocenka4' => DB::table('users')->where('id', $id)->pluck('ocenka4'),
+            'vopros5' => DB::table('users')->where('id', $id)->pluck('vopros5'),
+            'ocenka5' => DB::table('users')->where('id', $id)->pluck('ocenka5'),
+            'vopros6' => DB::table('users')->where('id', $id)->pluck('vopros6'),
+            'ocenka6' => DB::table('users')->where('id', $id)->pluck('ocenka6'),
+            'vopros7' => DB::table('users')->where('id', $id)->pluck('vopros7'),
+            'ocenka7' => DB::table('users')->where('id', $id)->pluck('ocenka7'),
 //            'ocenkaTotal' => Input::get('ocenkaTotal'),
 //            'ocenkaZaGosy' => Input::get('ocenkaZaGosy'),
 
@@ -454,7 +454,7 @@ public function addProfile($id)
 
         $date = Input::all();
 
-        $users = User::where('date' , '=' , $date['date'])->get();
+        $users = User::where('date' , '=' , $date['date'])->orderBy('lastName')->get();
 
 
         return View::make('pages.search' , ['users' => $users]);

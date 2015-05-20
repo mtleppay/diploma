@@ -1,35 +1,45 @@
 @extends('layouts.main')
 @section('content')
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-sm-offset-3">
-                <div class="form-group">
-                    <div class='form-group date'>
-                        <input type='text' class="form-control datepicker" />
-                        {{--<span class="input-group-addon">--}}
-                        {{--<span class="fa fa-calendar">--}}
-                        {{--</span>--}}
-                        {{--</span>--}}
+    <form method = "POST" action = "/students/search">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <div class="form-group">
+                        <div class='form-group date'>
+                            <input type='text' class="form-control datepicker" name = "date"/>
+                            {{--<span class="input-group-addon">--}}
+                            {{--<span class="fa fa-calendar">--}}
+                            {{--</span>--}}
+                            {{--</span>--}}
+                        </div>
                     </div>
                 </div>
+                <script type="text/javascript">
+
+
+                    $('.datepicker').datepicker({format: 'dd/mm/yyyy'}).on('changeDate', function(){
+                        $(this).datepicker('hide');
+
+                    });
+
+
+
+
+
+                </script>
             </div>
-            <script type="text/javascript">
-                $(function () {
-                    $('.datepicker').datepicker();
-
-                });
-            </script>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="row">
-            <center>
-                <button type="button" class="btn btn-default search-button"><strong>Поиск</strong></button>
-            </center>
+        <div class="container">
+            <div class="row">
+                <center>
+                    <button type="submit" class="btn btn-default search-button"><strong>Поиск</strong></button>
+                </center>
+            </div>
         </div>
-    </div>
+
+    </form>
 
     <div class = "row" style = "padding-left: 30px;padding-top: 40px">
 
@@ -48,6 +58,7 @@
         <table class="table table-bordered">
 
             <tr>
+                <th>ID</th>
                 <th>Дата защиты</th>
                 <th>Имя</th>
                 <th>Фамилия</th>
@@ -120,8 +131,12 @@
             @foreach($users as $user)
                 @if($user->role == 0)
 
+
                     {{--<form class="form-horizontal" method = "POST" action = "/students/edit/{{$user->id}}">--}}
                     <tr>
+                        <td>
+                           {{$user->id}}
+                        </td>
                         <td>
                             <span id = "edit-date{{$user->id}}" type = "text" title = "Укажите дату      'DD/MM/YYYY'">{{$user->date}}</span>
                         </td>

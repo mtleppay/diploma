@@ -1105,7 +1105,7 @@ class UserTableSeeder extends Seeder
             'vopros6' => '',
             'vopros7' => '',
             'minutes' => '38',
-            'date' => '28/05/2015',
+            'date' => '18/05/2015',
             'recendentName' => 'Mukimbekov M.Zh.',
             'recendentOcenka' => '',
             'ocenkaZaGosy' =>'70.67',
@@ -3973,7 +3973,7 @@ class UserTableSeeder extends Seeder
             'lastName' => 'MirasAdmin',
             'firstName' => 'MirasAdmin',
 //            'thirdName' => 'Bahytzhanovich',
-            'email'    => 'Miras@gmail.com',
+            'email' => 'miras@gmail.com',
             'password' => Hash::make('M140855iras'),
             'role' => '8',
 

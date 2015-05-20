@@ -134,6 +134,7 @@
                 </tr>
 
                 @foreach($users as $user)
+
                     @if($user->role == 0)
 
                         {{--<form class="form-horizontal" method = "POST" action = "/students/edit/{{$user->id}}">--}}
