@@ -26,7 +26,10 @@
             </tr>
 
             <tr>
-                <td colspan = "2" class = "attendees">Agenda: the award of the bachelor academic degree and/or confer the qualification to the student who has passed all state examinations and defended the final thesis (project).</td>
+                <td colspan = "2" class = "attendees">Agenda: the award of the bachelor academic degree and/or confer the qualification to the student who has</td>
+            </tr>
+            <tr>
+                <td colspan = "2" class = "attendees">passed all state examinations and defended the final thesis (project).</td>
             </tr>
             <tr>
                 <td colspan = "2" class = "attendees">Attendees: </td>
