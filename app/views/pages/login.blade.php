@@ -52,8 +52,10 @@
                                     <!-- Button -->
 
                                     <div class="col-sm-12 controls">
+                                        <center>
                                       <button type = "submit" id="btn-login" class="btn btn-info">Войти</button>
-                                        <a class = "btn btn-primary" href="/signup" style = "float: right">Регистрация</a>
+                                            </center>
+                                        {{--<a class = "btn btn-primary" href="/signup" style = "float: right">Регистрация</a>--}}
                                     </div>
 
                                 </div>

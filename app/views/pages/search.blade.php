@@ -60,8 +60,9 @@
             <tr>
                 <th>ID</th>
                 <th>Дата защиты</th>
-                <th>Имя</th>
                 <th>Фамилия</th>
+                <th>Имя</th>
+
                 {{--<td>Отчество</td>--}}
                 <th>Специальность</th>
                 <th>Тема</th>
@@ -141,11 +142,12 @@
                             <span id = "edit-date{{$user->id}}" type = "text" title = "Укажите дату      'DD/MM/YYYY'">{{$user->date}}</span>
                         </td>
                         <td>
-                            <span id = "edit-firstname{{$user->id}}" type = "text" title = "Укажите ваше имя">{{$user->firstName}}</span>
-                        </td>
-                        <td>
                             <span id = "edit-lastname{{$user->id}}" type = "text" title = "Укажите вашу фамилию">{{$user->lastName}}</span>
                         </td>
+                        <td>
+                            <span id = "edit-firstname{{$user->id}}" type = "text" title = "Укажите ваше имя">{{$user->firstName}}</span>
+                        </td>
+
                         {{--<td>{{$user->thirdName}}</td>--}}
                         <td>
                             <span id = "edit-patronumic{{$user->id}}" type = "text" title = "Укажите ваш патронумик">{{$user->patroNumic}}</span>
