@@ -58,7 +58,6 @@
         <table class="table table-bordered">
 
             <tr>
-                <th>ID</th>
                 <th>Дата защиты</th>
                 <th>Фамилия</th>
                 <th>Имя</th>
@@ -135,9 +134,7 @@
 
                     {{--<form class="form-horizontal" method = "POST" action = "/students/edit/{{$user->id}}">--}}
                     <tr>
-                        <td>
-                           {{$user->id}}
-                        </td>
+
                         <td>
                             <span id = "edit-date{{$user->id}}" type = "text" title = "Укажите дату      'DD/MM/YYYY'">{{$user->date}}</span>
                         </td>
