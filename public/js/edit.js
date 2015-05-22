@@ -8,11 +8,12 @@ function editThisStudent(id){
 
     //make username editable
     //$('#predprinimatel').editable();
+
     $('#edit-date'+id).editable();
 
 
     //$('#edit-date'+id).datepicker();
-
+    $('#edit-minutes'+id).editable();
     $('#edit-firstname'+id).editable();
     $('#edit-lastname'+id).editable();
     $('#edit-patronumic'+id).editable();
@@ -240,7 +241,7 @@ function sentRequest(id , role){
         data = {
 
 
-
+            "minutes": document.getElementById('edit-minutes' + id).innerHTML,
             "date": document.getElementById('edit-date' + id).innerHTML,
             "firstName": document.getElementById('edit-firstname' + id).innerHTML,
             "lastName": document.getElementById('edit-lastname' + id).innerHTML,

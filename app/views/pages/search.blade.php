@@ -58,6 +58,9 @@
         <table class="table table-bordered">
 
             <tr>
+                @if(Auth::user()->role == 8)
+                <th>Минуты</th>
+                @endif
                 <th>Дата защиты</th>
                 <th>Фамилия</th>
                 <th>Имя</th>
@@ -134,6 +137,11 @@
 
                     {{--<form class="form-horizontal" method = "POST" action = "/students/edit/{{$user->id}}">--}}
                     <tr>
+                        @if(Auth::user()->role == 8)
+                        <td>
+                            <span id = "edit-minutes{{$user->id}}" type = "text" title = "Укажите № минут">{{$user->minutes}}</span>
+                        </td>
+                        @endif
 
                         <td>
                             <span id = "edit-date{{$user->id}}" type = "text" title = "Укажите дату      'DD/MM/YYYY'">{{$user->date}}</span>

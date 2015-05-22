@@ -313,32 +313,53 @@
             </tr>
 
             <tr>
-                <td colspan = "2" class = "signes">Signed: _________________________Moldagulova  A. N.</td>
+                <td colspan ="2" style = "padding-top: 10px"><b>Chairperson</b></td>
             </tr>
 
             <tr>
-                <td colspan = "2" class = "signes">Signed: _________________________Kuandykov  A. A.</td>
+                <td colspan = "2" class = "signes">Signed: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp _________________________  Atymtayeva L.B.</td>
             </tr>
             <tr>
-                <td colspan = "2" class = "signes">Signed: _________________________Satybaldiyeva R. Zh.</td>
+                <td colspan ="2"><b>Members of the Commission</b></td>
             </tr>
             <tr>
-                <td colspan = "2" class = "signes">Signed: _________________________Omarov  B. S.</td>
+                <td colspan = "2" class = "signes">Signed: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp _________________________  Serbin V.V.</td>
             </tr>
             <tr>
-                <td colspan = "2" class = "signes">Signed: _________________________Atymtayeva L. B.</td>
+                <td colspan = "2" class = "signes"> &nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp_________________________  Satybaldiyeva D. Zh.</td>
             </tr>
             <tr>
-                <td colspan = "2" class = "signes">Signed: _________________________ Orazbekov S. K.</td>
+                <td colspan = "2" class = "signes"> &nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp_________________________  Moldagulova A. N.</td>
             </tr>
             <tr>
-                <td colspan = "2" class = "signes">Signed: _________________________ Serbin V. V.</td>
+                <td colspan = "2" class = "signes"> &nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp_________________________  Kuandykov A.A.</td>
             </tr>
             <tr>
-                <td colspan = "2" class = "signes">Signed: _________________________ Syrymbayeva A.M.</td>
+                <td colspan = "2" class = "signes"> &nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp_________________________  Omarov B.S.</td>
             </tr>
             <tr>
-                <td colspan = "2" class = "signes">Signed: _________________________ Saimassayeva Sh.M.</td>
+                <td colspan = "2" class = "signes"> &nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp_________________________  Orazbekov S.K.</td>
+            </tr>
+            <tr>
+                <td colspan ="2"><b>Secretary</b></td>
+            </tr>
+            <tr>
+                <td colspan = "2" class = "signes">Signed: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp _________________________  Syrymbayeva A.M.</td>
+            </tr>
+            <tr>
+                <td colspan = "2" class = "signes"> &nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp_________________________  Saimassayeva Sh.M.</td>
             </tr>
 
         </table>

@@ -111,6 +111,8 @@ public function addProfile($id)
 
   if($currentUser == 8) {
         $userdata = array(
+
+            'minutes' => Input::get('minutes'),
             'date' => Input::get('date'),
             'firstName' => Input::get('firstName'),
             'lastName' => Input::get('lastName'),
