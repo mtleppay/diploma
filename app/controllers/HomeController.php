@@ -60,6 +60,43 @@ class HomeController extends BaseController {
 	}
 
 
+    public  function getReset($id)
+    {
+
+        Return View::make('pages.reset');
+
+    }
+
+    public function postUserPasswordChange($id){
+
+        $oldpassword = Input::get('password');
+        $newpassword = Input::get('new_password');
+        $confirm = Input::get('confirm_new_password');
+
+        $currentpassword =  DB::table('users')->where('id', $id)->pluck('password');
+
+//        dd($oldpassword , $currentpassword );
+
+//        dd(Hash::check($oldpassword , $currentpassword));
+
+//        $validator = Validator::make(Input::all(), User::$change_password_rules);
+//        if($validator->passes()){
+
+        if(Hash::check($oldpassword , $currentpassword) && ($newpassword == $confirm) ){
+
+            $user = new User;
+
+            $userdata = array('password' => Hash::make(Input::get('new_password')));
+
+            $user -> where('id', $id)
+                ->update($userdata);
+
+            return Redirect::to('/')->with('message', 'Success!');
+
+        }else {
+            return Redirect::to('/reset/' . $id)->with('global', 'The following errors occurred')->withInput();
+        }
+    }
 
 	public function getProfile($id)
 	{

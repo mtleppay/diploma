@@ -1,6 +1,14 @@
 @extends('layouts.main')
 @section('content')
 
+    @if(Session::has('message'))
+        <div class="container">
+            <div class="alert-box success">
+                <h2>{{ Session::get('message') }}</h2>
+            </div>
+        </div>
+    @endif
+
     @if(Auth::user() != null && Auth::user()->role != 0 )
 
         <div class = "container">

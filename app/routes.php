@@ -29,6 +29,9 @@ Route::post('signup', 'RegistrationController@register');
 
 Route::get('logout' , 'RegistrationController@doLogout');
 
+Route::get('/reset/{id}' , 'HomeController@getReset');
+
+Route::post('/reset/{id}' , 'HomeController@postUserPasswordChange');
 
 Route::get('profile/{id}' , 'HomeController@getProfile');
 

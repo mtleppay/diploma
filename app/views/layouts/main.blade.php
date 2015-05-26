@@ -77,6 +77,7 @@
                <li><a href="/">Вход</a></li>
                <li><a href="/signup">Регистрация</a></li>
             @else
+               <li><a href = "/reset/{{Auth::user()->id}}">Сменить пароль</a></li>
                <li><a href="/profile/{{Auth::user()->id}}">{{ Auth::user()->email }}</a>
                <li><a href="/logout">Выход</a></li>
 

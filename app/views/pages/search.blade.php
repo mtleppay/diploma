@@ -1,6 +1,8 @@
 @extends('layouts.main')
 @section('content')
 
+
+
     <form method = "POST" action = "/students/search">
         <div class="container">
             <div class="row">
@@ -129,13 +131,14 @@
 
 
 
+
             </tr>
 
             @foreach($users as $user)
                 @if($user->role == 0)
 
 
-                    
+
 
                     {{--<form class="form-horizontal" method = "POST" action = "/students/edit/{{$user->id}}">--}}
                     <tr>
