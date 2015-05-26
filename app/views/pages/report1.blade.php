@@ -4,7 +4,7 @@
     <div class="container glavnyi">
 
 
-        <table class = "table1">
+        <table class = "table1" width = "1014">
             <tr>
                 <td colspan = "2" class = "appendix">Appendix 1</td>
             </tr>
