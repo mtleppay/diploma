@@ -78,7 +78,7 @@
                 <td colspan = "2" style = "border-bottom: 2px solid black">5. Computer network</td>
             </tr>
             <tr>
-                <td colspan = "2" style = "padding-top: 30px;border-bottom: 2px solid black"> Examinee: ,5B070300 - Information systems</td>
+                <td colspan = "2" style = "padding-top: 30px;border-bottom: 2px solid black"> Examinee: {{$user->lastName}}&nbsp{{$user->firstName}} ,5B070300 - Information systems</td>
             </tr>
             <tr>
                 <td colspan = "2"><i>(lastname, first name, patronymic, major)</i></td>
@@ -108,7 +108,49 @@
                 <td colspan = "2" style = "text-align: center"><i>(the subject, major)</i></td>
             </tr>
             <tr>
-                <td colspan = "2">with the grade________________________{{$user->ocenkaZaGosy}}______________________________</td>
+                <td colspan = "2">with the grade_______________________ <?php
+                    if($user->ocenkaTotal >= 95){
+
+                        echo 'A';
+                    }
+                    else if ($user->ocenkaTotal >= 90){
+                        echo 'A-';
+                    }
+
+                    else if ($user->ocenkaTotal >= 85){
+                        echo 'B+';
+                    }
+
+                    else if ($user->ocenkaTotal >= 80){
+                        echo 'B';
+                    }
+
+                    else if ($user->ocenkaTotal >= 75){
+                        echo 'B-';
+                    }
+
+                    else if ($user->ocenkaTotal >= 70){
+                        echo 'C+';
+                    }
+
+                    else if ($user->ocenkaTotal >= 65){
+                        echo 'C';
+                    }
+
+                    else if ($user->ocenkaTotal >= 60){
+                        echo 'C-';
+                    }
+
+                    else if ($user->ocenkaTotal >= 55){
+                        echo 'D+';
+                    }
+
+                    else if ($user->ocenkaTotal >= 50){
+                        echo 'D';
+                    }
+
+                    else echo 'F';
+                    ?>({{$user->ocenkaZaGosy}})______________________________</td>
             </tr>
             <tr>
                 <td colspan = "2"><i>(according to the Alphabetic Grading Scale)</i></td>
