@@ -91,7 +91,7 @@ class HomeController extends BaseController {
             $user -> where('id', $id)
                 ->update($userdata);
 
-            return Redirect::to('/')->with('message', 'Success!');
+            return Redirect::to('/')->with('message', 'Ваш пароль успешно изменен!');
 
         }else {
             return Redirect::to('/reset/' . $id)->with('global', 'The following errors occurred')->withInput();
