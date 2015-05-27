@@ -109,43 +109,43 @@
             </tr>
             <tr>
                 <td colspan = "2">with the grade_______________________ <?php
-                    if($user->ocenkaTotal >= 95){
+                    if($user->ocenkaZaGosy >= 95){
 
                         echo 'A';
                     }
-                    else if ($user->ocenkaTotal >= 90){
+                    else if ($user->ocenkaZaGosy >= 90){
                         echo 'A-';
                     }
 
-                    else if ($user->ocenkaTotal >= 85){
+                    else if ($user->ocenkaZaGosy >= 85){
                         echo 'B+';
                     }
 
-                    else if ($user->ocenkaTotal >= 80){
+                    else if ($user->ocenkaZaGosy >= 80){
                         echo 'B';
                     }
 
-                    else if ($user->ocenkaTotal >= 75){
+                    else if ($user->ocenkaZaGosy >= 75){
                         echo 'B-';
                     }
 
-                    else if ($user->ocenkaTotal >= 70){
+                    else if ($user->ocenkaZaGosy >= 70){
                         echo 'C+';
                     }
 
-                    else if ($user->ocenkaTotal >= 65){
+                    else if ($user->ocenkaZaGosy >= 65){
                         echo 'C';
                     }
 
-                    else if ($user->ocenkaTotal >= 60){
+                    else if ($user->ocenkaZaGosy >= 60){
                         echo 'C-';
                     }
 
-                    else if ($user->ocenkaTotal >= 55){
+                    else if ($user->ocenkaZaGosy >= 55){
                         echo 'D+';
                     }
 
-                    else if ($user->ocenkaTotal >= 50){
+                    else if ($user->ocenkaZaGosy >= 50){
                         echo 'D';
                     }
 
