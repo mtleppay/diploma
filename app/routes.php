@@ -65,6 +65,12 @@ Route::group(['before' => 'students'],function(){
 
     Route::get('students/{id}/report3' , 'HomeController@report3');
 
+    Route::get('students/report1all' , 'HomeController@report1all');
+
+    Route::get('students/report2all' , 'HomeController@report2all');
+
+    Route::get('students/report3all' , 'HomeController@report3all');
+
     Route::get('students/search' , function()
     {
        $users = User::orderBy('lastName')->get();

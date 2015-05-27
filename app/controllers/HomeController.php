@@ -43,6 +43,29 @@ class HomeController extends BaseController {
         return View::make('pages.report3', ['user' => $user]);
     }
 
+    public function report1all()
+    {
+        $users = User::orderBy('lastName')->get();
+
+        return View::make('pages.report1all', ['users' => $users]);
+    }
+
+    public function report2all()
+    {
+        $users = User::orderBy('lastName')->get();
+
+        return View::make('pages.report2all', ['users' => $users]);
+    }
+
+    public function report3all()
+    {
+        $users = User::orderBy('lastName')->get();
+
+        return View::make('pages.report3all', ['users' => $users]);
+    }
+
+
+
 
 	public function showWelcome()
 	{
@@ -443,6 +466,29 @@ public function addProfile($id)
 //        }
 //
 //        else{
+
+            if($userdata['ocenka1'] > 100){
+                $userdata['ocenka1'] = 100;
+            }
+            if($userdata['ocenka2'] > 100){
+                $userdata['ocenka2'] = 100;
+            }
+            if($userdata['ocenka3'] > 100){
+                $userdata['ocenka3'] = 100;
+            }
+            if($userdata['ocenka4'] > 100){
+                $userdata['ocenka4'] = 100;
+            }
+            if($userdata['ocenka5'] > 100){
+                $userdata['ocenka5'] = 100;
+            }
+            if($userdata['ocenka6'] > 100){
+                $userdata['ocenka6'] = 100;
+            }
+            if($userdata['ocenka7'] > 100){
+                $userdata['ocenka7'] = 100;
+            }
+
 
 
 
