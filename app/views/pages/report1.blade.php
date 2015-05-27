@@ -199,7 +199,7 @@
             <tr>
                 <td colspan = "2" class = "signes"> &nbsp&nbsp
                     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp_________________________  Satybaldiyeva D. Zh.</td>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp_________________________  Satybaldiyeva R. Zh.</td>
             </tr>
             <tr>
                 <td colspan = "2" class = "signes"> &nbsp&nbsp
