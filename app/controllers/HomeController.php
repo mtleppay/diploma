@@ -200,7 +200,8 @@ public function addProfile($id)
             'ocenkaTotal' => Input::get('ocenkaTotal'),
             'ocenkaZaGosy' => Input::get('ocenkaZaGosy'),
             'ocenkaRukovoditelya' => Input::get('ocenkaRukovoditelya'),
-            'recendentOcenka' => Input::get('recendentOcenka')
+            'recendentOcenka' => Input::get('recendentOcenka'),
+            'recendentName' => Input::get('recendentName')
 
         );
     }
@@ -431,6 +432,7 @@ public function addProfile($id)
 
         );
     }
+
 
 //        $validator = Validator::make(
 //

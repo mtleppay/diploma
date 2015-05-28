@@ -21,11 +21,11 @@
 			  </div>
 
 			  <div class="form-group">
-			    <label class="col-sm-2 control-label">Отчество</label>
-			    <div class="col-sm-7">
-			      <input type="text" class="form-control" name = "thirdName">
-			    </div>
-			  </div>
+                    <label class="col-sm-2 control-label">Отчество</label>
+                    <div class="col-sm-7">
+                        <input type="text" class="form-control" name = "thirdName">
+                    </div>
+                </div>
 
                 <div class="form-group">
                     <label class="col-sm-2 control-label">Патронумик</label>

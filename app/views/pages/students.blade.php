@@ -76,7 +76,7 @@
                     <!-- <td>Тема(англ)</td> -->
                     <th>Руководитель</th>
                     @if(Auth::user()->role == 8)
-                        <th>Имя Рецендента</th>
+                        <th>Имя Рецензента</th>
                     @endif
                     @if(Auth::user()->role == 1 || Auth::user()->role == 8)
                         <th>Вопрос1</th>
@@ -190,7 +190,7 @@
                             </td>
                             @if(Auth::user()->role == 8)
                                 <td>
-                                    <span id = "edit-recendentName{{$user->id}}" type = "text" title = "Укажите рецендента">{{$user->recendentName}}</span>
+                                    <span id = "edit-recendentName{{$user->id}}" type = "text" title = "Укажите рецензента">{{$user->recendentName}}</span>
                                 </td>
                             @endif
 
