@@ -11,6 +11,31 @@
 |
 */
 
+Route::get('/sendmail', function()
+{
+   return View::make('sendmailview');
+});
+
+
+Route::post('/sendmail', function()
+{
+   $data = Input::all();
+    print_r($data);
+
+    Mail::send('mail', array('phone' => $data['phone'] ,'name' => $data['name'] ), function($message)
+    {
+        $message->to('akhatnya@gmail.com', 'no-reply')->subject('Заявка');
+    });
+
+    return '';
+});
+
+Route::get('/test' , function()
+{
+   return View::make('test');
+});
+
+Route::post('/form', 'HomeController@postForma');
 
 Route::get('/', array('uses' => 'RegistrationController@showLogin'));
 

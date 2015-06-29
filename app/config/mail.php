@@ -54,7 +54,10 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => null, 'name' => null),
+
+
+
+	'from' => array('address' => 'postmaster@clean.kz', 'name' => 'no-reply'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,7 +83,7 @@ return array(
 	|
 	*/
 
-	'username' => null,
+	'username' => 'postmaster@sandbox1c79c1b3e41141e285c9cb7127a43326.mailgun.org',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +96,7 @@ return array(
 	|
 	*/
 
-	'password' => null,
+	'password' => 'd5c32e9500ee1e25801749df667b577e',
 
 	/*
 	|--------------------------------------------------------------------------
